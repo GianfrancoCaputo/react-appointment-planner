@@ -28,8 +28,8 @@ export const ContactForm = ({
         name='phone'
         value={currentPhone}
         onChange={(e) => setCurrentPhone(e.target.value)}
-        required
-        pattern="[1-9][0-9]{2}[1-9][0-9]{2}[0-9]{4}"
+        // required
+        // pattern="[1-9][0-9]{2}[1-9][0-9]{2}[0-9]{4}"
         placeholder='Phone' 
         />
       </label>
